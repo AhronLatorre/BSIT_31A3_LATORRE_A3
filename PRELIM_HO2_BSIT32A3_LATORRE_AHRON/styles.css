@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 100%;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 12px 12px 0 0;
+}
+
+
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 0 0 12px 12px;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #138496;
+}
+
+.welcome-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+.welcome-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.quote {
+    font-style: italic;
+    color: #555;
+    margin: 15px 0;
+}
+
+
+
+/* Base styles for all nav buttons */
+#nav-btn {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+/* Specific button colors */
+#home-btn {
+    background-color: #28a745; /* Green */
+    border-color: #218838;
+}
+
+#about-btn {
+    background-color: #ffc107; /* Yellow */
+    border-color: #e0a800;
+    color: black; /* Better contrast on yellow */
+}
+
+#contact-btn {
+    background-color: #dc3545; /* Red */
+    border-color: #c82333;
+}
+
+/* Hover effects for all buttons */
+#nav-btn:hover {
+    background-color: white;
+    color: black;
+    border-color: currentColor; /* Matches the original border color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
